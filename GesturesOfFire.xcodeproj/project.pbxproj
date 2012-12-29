@@ -450,6 +450,7 @@
 				AD101226168EFBA100C1BF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD101227168EFBA100C1BF17 /* Build configuration list for PBXNativeTarget "GesturesOfFireTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +459,7 @@
 				AD101229168EFBA100C1BF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
