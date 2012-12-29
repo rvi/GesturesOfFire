@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1011F0168EFBA100C1BF17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1011EF168EFBA100C1BF17 /* UIKit.framework */; };
+		AD1011F2168EFBA100C1BF17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1011F1168EFBA100C1BF17 /* Foundation.framework */; };
+		AD1011F4168EFBA100C1BF17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1011F3168EFBA100C1BF17 /* CoreGraphics.framework */; };
+		AD1011FA168EFBA100C1BF17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD1011F8168EFBA100C1BF17 /* InfoPlist.strings */; };
+		AD1011FC168EFBA100C1BF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1011FB168EFBA100C1BF17 /* main.m */; };
+		AD101200168EFBA100C1BF17 /* RVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1011FF168EFBA100C1BF17 /* RVAppDelegate.m */; };
+		AD101202168EFBA100C1BF17 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD101201168EFBA100C1BF17 /* Default.png */; };
+		AD101204168EFBA100C1BF17 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD101203168EFBA100C1BF17 /* Default@2x.png */; };
+		AD101206168EFBA100C1BF17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD101205168EFBA100C1BF17 /* Default-568h@2x.png */; };
+		AD101209168EFBA100C1BF17 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD101207168EFBA100C1BF17 /* MainStoryboard.storyboard */; };
+		AD10120C168EFBA100C1BF17 /* RVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD10120B168EFBA100C1BF17 /* RVViewController.m */; };
+		AD101214168EFBA100C1BF17 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD101213168EFBA100C1BF17 /* SenTestingKit.framework */; };
+		AD101215168EFBA100C1BF17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1011EF168EFBA100C1BF17 /* UIKit.framework */; };
+		AD101216168EFBA100C1BF17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1011F1168EFBA100C1BF17 /* Foundation.framework */; };
+		AD10121E168EFBA100C1BF17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD10121C168EFBA100C1BF17 /* InfoPlist.strings */; };
+		AD101221168EFBA100C1BF17 /* GesturesOfFireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD101220168EFBA100C1BF17 /* GesturesOfFireTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD101217168EFBA100C1BF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1011E2168EFBA100C1BF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1011EA168EFBA100C1BF17;
+			remoteInfo = GesturesOfFire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1011EB168EFBA100C1BF17 /* GesturesOfFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesOfFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1011EF168EFBA100C1BF17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD1011F1168EFBA100C1BF17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD1011F3168EFBA100C1BF17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD1011F7168EFBA100C1BF17 /* GesturesOfFire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GesturesOfFire-Info.plist"; sourceTree = "<group>"; };
+		AD1011F9168EFBA100C1BF17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD1011FB168EFBA100C1BF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD1011FD168EFBA100C1BF17 /* GesturesOfFire-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GesturesOfFire-Prefix.pch"; sourceTree = "<group>"; };
+		AD1011FE168EFBA100C1BF17 /* RVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVAppDelegate.h; sourceTree = "<group>"; };
+		AD1011FF168EFBA100C1BF17 /* RVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVAppDelegate.m; sourceTree = "<group>"; };
+		AD101201168EFBA100C1BF17 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD101203168EFBA100C1BF17 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD101205168EFBA100C1BF17 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD101208168EFBA100C1BF17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AD10120A168EFBA100C1BF17 /* RVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVViewController.h; sourceTree = "<group>"; };
+		AD10120B168EFBA100C1BF17 /* RVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVViewController.m; sourceTree = "<group>"; };
+		AD101212168EFBA100C1BF17 /* GesturesOfFireTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesOfFireTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD101213168EFBA100C1BF17 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD10121B168EFBA100C1BF17 /* GesturesOfFireTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GesturesOfFireTests-Info.plist"; sourceTree = "<group>"; };
+		AD10121D168EFBA100C1BF17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD10121F168EFBA100C1BF17 /* GesturesOfFireTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturesOfFireTests.h; sourceTree = "<group>"; };
+		AD101220168EFBA100C1BF17 /* GesturesOfFireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesOfFireTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1011E8168EFBA100C1BF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1011F0168EFBA100C1BF17 /* UIKit.framework in Frameworks */,
+				AD1011F2168EFBA100C1BF17 /* Foundation.framework in Frameworks */,
+				AD1011F4168EFBA100C1BF17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD10120E168EFBA100C1BF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD101214168EFBA100C1BF17 /* SenTestingKit.framework in Frameworks */,
+				AD101215168EFBA100C1BF17 /* UIKit.framework in Frameworks */,
+				AD101216168EFBA100C1BF17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1011E0168EFBA100C1BF17 = {
+			isa = PBXGroup;
+			children = (
+				AD1011F5168EFBA100C1BF17 /* GesturesOfFire */,
+				AD101219168EFBA100C1BF17 /* GesturesOfFireTests */,
+				AD1011EE168EFBA100C1BF17 /* Frameworks */,
+				AD1011EC168EFBA100C1BF17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1011EC168EFBA100C1BF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1011EB168EFBA100C1BF17 /* GesturesOfFire.app */,
+				AD101212168EFBA100C1BF17 /* GesturesOfFireTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1011EE168EFBA100C1BF17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD1011EF168EFBA100C1BF17 /* UIKit.framework */,
+				AD1011F1168EFBA100C1BF17 /* Foundation.framework */,
+				AD1011F3168EFBA100C1BF17 /* CoreGraphics.framework */,
+				AD101213168EFBA100C1BF17 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD1011F5168EFBA100C1BF17 /* GesturesOfFire */ = {
+			isa = PBXGroup;
+			children = (
+				AD1011FE168EFBA100C1BF17 /* RVAppDelegate.h */,
+				AD1011FF168EFBA100C1BF17 /* RVAppDelegate.m */,
+				AD101207168EFBA100C1BF17 /* MainStoryboard.storyboard */,
+				AD10120A168EFBA100C1BF17 /* RVViewController.h */,
+				AD10120B168EFBA100C1BF17 /* RVViewController.m */,
+				AD1011F6168EFBA100C1BF17 /* Supporting Files */,
+			);
+			path = GesturesOfFire;
+			sourceTree = "<group>";
+		};
+		AD1011F6168EFBA100C1BF17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD1011F7168EFBA100C1BF17 /* GesturesOfFire-Info.plist */,
+				AD1011F8168EFBA100C1BF17 /* InfoPlist.strings */,
+				AD1011FB168EFBA100C1BF17 /* main.m */,
+				AD1011FD168EFBA100C1BF17 /* GesturesOfFire-Prefix.pch */,
+				AD101201168EFBA100C1BF17 /* Default.png */,
+				AD101203168EFBA100C1BF17 /* Default@2x.png */,
+				AD101205168EFBA100C1BF17 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD101219168EFBA100C1BF17 /* GesturesOfFireTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD10121F168EFBA100C1BF17 /* GesturesOfFireTests.h */,
+				AD101220168EFBA100C1BF17 /* GesturesOfFireTests.m */,
+				AD10121A168EFBA100C1BF17 /* Supporting Files */,
+			);
+			path = GesturesOfFireTests;
+			sourceTree = "<group>";
+		};
+		AD10121A168EFBA100C1BF17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD10121B168EFBA100C1BF17 /* GesturesOfFireTests-Info.plist */,
+				AD10121C168EFBA100C1BF17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1011EA168EFBA100C1BF17 /* GesturesOfFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD101224168EFBA100C1BF17 /* Build configuration list for PBXNativeTarget "GesturesOfFire" */;
+			buildPhases = (
+				AD1011E7168EFBA100C1BF17 /* Sources */,
+				AD1011E8168EFBA100C1BF17 /* Frameworks */,
+				AD1011E9168EFBA100C1BF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GesturesOfFire;
+			productName = GesturesOfFire;
+			productReference = AD1011EB168EFBA100C1BF17 /* GesturesOfFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD101211168EFBA100C1BF17 /* GesturesOfFireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD101227168EFBA100C1BF17 /* Build configuration list for PBXNativeTarget "GesturesOfFireTests" */;
+			buildPhases = (
+				AD10120D168EFBA100C1BF17 /* Sources */,
+				AD10120E168EFBA100C1BF17 /* Frameworks */,
+				AD10120F168EFBA100C1BF17 /* Resources */,
+				AD101210168EFBA100C1BF17 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD101218168EFBA100C1BF17 /* PBXTargetDependency */,
+			);
+			name = GesturesOfFireTests;
+			productName = GesturesOfFireTests;
+			productReference = AD101212168EFBA100C1BF17 /* GesturesOfFireTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1011E2168EFBA100C1BF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RV;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Rémy Virin";
+			};
+			buildConfigurationList = AD1011E5168EFBA100C1BF17 /* Build configuration list for PBXProject "GesturesOfFire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD1011E0168EFBA100C1BF17;
+			productRefGroup = AD1011EC168EFBA100C1BF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1011EA168EFBA100C1BF17 /* GesturesOfFire */,
+				AD101211168EFBA100C1BF17 /* GesturesOfFireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1011E9168EFBA100C1BF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1011FA168EFBA100C1BF17 /* InfoPlist.strings in Resources */,
+				AD101202168EFBA100C1BF17 /* Default.png in Resources */,
+				AD101204168EFBA100C1BF17 /* Default@2x.png in Resources */,
+				AD101206168EFBA100C1BF17 /* Default-568h@2x.png in Resources */,
+				AD101209168EFBA100C1BF17 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD10120F168EFBA100C1BF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD10121E168EFBA100C1BF17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD101210168EFBA100C1BF17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1011E7168EFBA100C1BF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1011FC168EFBA100C1BF17 /* main.m in Sources */,
+				AD101200168EFBA100C1BF17 /* RVAppDelegate.m in Sources */,
+				AD10120C168EFBA100C1BF17 /* RVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD10120D168EFBA100C1BF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD101221168EFBA100C1BF17 /* GesturesOfFireTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD101218168EFBA100C1BF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1011EA168EFBA100C1BF17 /* GesturesOfFire */;
+			targetProxy = AD101217168EFBA100C1BF17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1011F8168EFBA100C1BF17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1011F9168EFBA100C1BF17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD101207168EFBA100C1BF17 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD101208168EFBA100C1BF17 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AD10121C168EFBA100C1BF17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD10121D168EFBA100C1BF17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD101222168EFBA100C1BF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AD101223168EFBA100C1BF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD101225168EFBA100C1BF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GesturesOfFire/GesturesOfFire-Prefix.pch";
+				INFOPLIST_FILE = "GesturesOfFire/GesturesOfFire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD101226168EFBA100C1BF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GesturesOfFire/GesturesOfFire-Prefix.pch";
+				INFOPLIST_FILE = "GesturesOfFire/GesturesOfFire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD101228168EFBA100C1BF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GesturesOfFire.app/GesturesOfFire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GesturesOfFire/GesturesOfFire-Prefix.pch";
+				INFOPLIST_FILE = "GesturesOfFireTests/GesturesOfFireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AD101229168EFBA100C1BF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GesturesOfFire.app/GesturesOfFire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GesturesOfFire/GesturesOfFire-Prefix.pch";
+				INFOPLIST_FILE = "GesturesOfFireTests/GesturesOfFireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1011E5168EFBA100C1BF17 /* Build configuration list for PBXProject "GesturesOfFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD101222168EFBA100C1BF17 /* Debug */,
+				AD101223168EFBA100C1BF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD101224168EFBA100C1BF17 /* Build configuration list for PBXNativeTarget "GesturesOfFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD101225168EFBA100C1BF17 /* Debug */,
+				AD101226168EFBA100C1BF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD101227168EFBA100C1BF17 /* Build configuration list for PBXNativeTarget "GesturesOfFireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD101228168EFBA100C1BF17 /* Debug */,
+				AD101229168EFBA100C1BF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1011E2168EFBA100C1BF17 /* Project object */;
+}
