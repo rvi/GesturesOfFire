@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface RVViewController : UIViewController
-- (IBAction)tapRecognized:(id)sender;
+
+- (void)tapRecognized:(id)sender;
 
 @end

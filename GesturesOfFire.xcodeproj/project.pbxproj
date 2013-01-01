@@ -23,6 +23,11 @@
 		AD101216168EFBA100C1BF17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1011F1168EFBA100C1BF17 /* Foundation.framework */; };
 		AD10121E168EFBA100C1BF17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD10121C168EFBA100C1BF17 /* InfoPlist.strings */; };
 		AD101221168EFBA100C1BF17 /* GesturesOfFireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD101220168EFBA100C1BF17 /* GesturesOfFireTests.m */; };
+		ADFBEE08169361CB007C4B15 /* RVFireView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBEE07169361CB007C4B15 /* RVFireView.m */; };
+		ADFBEE0B16936201007C4B15 /* RVFireView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADFBEE0A16936201007C4B15 /* RVFireView.xib */; };
+		ADFBEE11169369B2007C4B15 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFBEE10169369B2007C4B15 /* QuartzCore.framework */; };
+		ADFBEE1516936E86007C4B15 /* DazFire.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFBEE1316936E86007C4B15 /* DazFire.png */; };
+		ADFBEE1616936E86007C4B15 /* DazSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFBEE1416936E86007C4B15 /* DazSmoke.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,12 @@
 		AD10121D168EFBA100C1BF17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD10121F168EFBA100C1BF17 /* GesturesOfFireTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturesOfFireTests.h; sourceTree = "<group>"; };
 		AD101220168EFBA100C1BF17 /* GesturesOfFireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesOfFireTests.m; sourceTree = "<group>"; };
+		ADFBEE06169361CB007C4B15 /* RVFireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVFireView.h; sourceTree = "<group>"; };
+		ADFBEE07169361CB007C4B15 /* RVFireView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVFireView.m; sourceTree = "<group>"; };
+		ADFBEE0A16936201007C4B15 /* RVFireView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVFireView.xib; sourceTree = "<group>"; };
+		ADFBEE10169369B2007C4B15 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADFBEE1316936E86007C4B15 /* DazFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFire.png; sourceTree = "<group>"; };
+		ADFBEE1416936E86007C4B15 /* DazSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazSmoke.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFBEE11169369B2007C4B15 /* QuartzCore.framework in Frameworks */,
 				AD1011F0168EFBA100C1BF17 /* UIKit.framework in Frameworks */,
 				AD1011F2168EFBA100C1BF17 /* Foundation.framework in Frameworks */,
 				AD1011F4168EFBA100C1BF17 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +118,7 @@
 		AD1011EE168EFBA100C1BF17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADFBEE10169369B2007C4B15 /* QuartzCore.framework */,
 				AD1011EF168EFBA100C1BF17 /* UIKit.framework */,
 				AD1011F1168EFBA100C1BF17 /* Foundation.framework */,
 				AD1011F3168EFBA100C1BF17 /* CoreGraphics.framework */,
@@ -117,11 +130,14 @@
 		AD1011F5168EFBA100C1BF17 /* GesturesOfFire */ = {
 			isa = PBXGroup;
 			children = (
+				ADFBEE1216936E4F007C4B15 /* Ressources */,
 				AD1011FE168EFBA100C1BF17 /* RVAppDelegate.h */,
 				AD1011FF168EFBA100C1BF17 /* RVAppDelegate.m */,
 				AD101207168EFBA100C1BF17 /* MainStoryboard.storyboard */,
+				ADFF168D16904ED900B34B13 /* Controllers */,
 				AD10120A168EFBA100C1BF17 /* RVViewController.h */,
 				AD10120B168EFBA100C1BF17 /* RVViewController.m */,
+				ADFF168B16904ECA00B34B13 /* Views */,
 				AD1011F6168EFBA100C1BF17 /* Supporting Files */,
 			);
 			path = GesturesOfFire;
@@ -158,6 +174,32 @@
 				AD10121C168EFBA100C1BF17 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADFBEE1216936E4F007C4B15 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBEE1316936E86007C4B15 /* DazFire.png */,
+				ADFBEE1416936E86007C4B15 /* DazSmoke.png */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		ADFF168B16904ECA00B34B13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADFBEE06169361CB007C4B15 /* RVFireView.h */,
+				ADFBEE07169361CB007C4B15 /* RVFireView.m */,
+				ADFBEE0A16936201007C4B15 /* RVFireView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ADFF168D16904ED900B34B13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +279,9 @@
 				AD101204168EFBA100C1BF17 /* Default@2x.png in Resources */,
 				AD101206168EFBA100C1BF17 /* Default-568h@2x.png in Resources */,
 				AD101209168EFBA100C1BF17 /* MainStoryboard.storyboard in Resources */,
+				ADFBEE0B16936201007C4B15 /* RVFireView.xib in Resources */,
+				ADFBEE1516936E86007C4B15 /* DazFire.png in Resources */,
+				ADFBEE1616936E86007C4B15 /* DazSmoke.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +319,7 @@
 				AD1011FC168EFBA100C1BF17 /* main.m in Sources */,
 				AD101200168EFBA100C1BF17 /* RVAppDelegate.m in Sources */,
 				AD10120C168EFBA100C1BF17 /* RVViewController.m in Sources */,
+				ADFBEE08169361CB007C4B15 /* RVFireView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
