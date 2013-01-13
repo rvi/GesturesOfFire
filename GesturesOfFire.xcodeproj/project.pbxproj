@@ -135,8 +135,6 @@
 				AD1011FF168EFBA100C1BF17 /* RVAppDelegate.m */,
 				AD101207168EFBA100C1BF17 /* MainStoryboard.storyboard */,
 				ADFF168D16904ED900B34B13 /* Controllers */,
-				AD10120A168EFBA100C1BF17 /* RVViewController.h */,
-				AD10120B168EFBA100C1BF17 /* RVViewController.m */,
 				ADFF168B16904ECA00B34B13 /* Views */,
 				AD1011F6168EFBA100C1BF17 /* Supporting Files */,
 			);
@@ -192,12 +190,14 @@
 				ADFBEE07169361CB007C4B15 /* RVFireView.m */,
 				ADFBEE0A16936201007C4B15 /* RVFireView.xib */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		ADFF168D16904ED900B34B13 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AD10120A168EFBA100C1BF17 /* RVViewController.h */,
+				AD10120B168EFBA100C1BF17 /* RVViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
