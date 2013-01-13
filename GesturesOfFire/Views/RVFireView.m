@@ -134,14 +134,6 @@
     }
 }
 
-
-- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-	return (interfaceOrientation == UIDeviceOrientationPortrait);
-}
-
-
-
 /**************************************************************************************************/
 #pragma mark - Fire Control
 
